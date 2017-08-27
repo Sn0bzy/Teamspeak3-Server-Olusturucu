@@ -1,0 +1,17 @@
+[15-Feb-2017 23:38:12 UTC] PHP Fatal error:  Uncaught exception 'TeamSpeak3_Transport_Exception' with message 'Connection timed out' in /home/darknetwork/public_html/tr/libraries/TeamSpeak3/Transport/TCP.php:54
+Stack trace:
+#0 /home/darknetwork/public_html/tr/libraries/TeamSpeak3/Transport/TCP.php(108): TeamSpeak3_Transport_TCP->connect()
+#1 /home/darknetwork/public_html/tr/libraries/TeamSpeak3/Adapter/ServerQuery.php(76): TeamSpeak3_Transport_TCP->readLine()
+#2 /home/darknetwork/public_html/tr/libraries/TeamSpeak3/Adapter/Abstract.php(60): TeamSpeak3_Adapter_ServerQuery->syn()
+#3 /home/darknetwork/public_html/tr/libraries/TeamSpeak3/TeamSpeak3.php(322): TeamSpeak3_Adapter_Abstract->__construct(Array)
+#4 /home/darknetwork/public_html/tr/inc/ts3listesi.php(36): TeamSpeak3::factory('serverquery://s...')
+#5 /home/darknetwork/public_html/tr/index.php(57): include('/home/darknetwo...')
+#6 /home/darknetwork/public_html/tr/index.php(265): getContent()
+#7 {main}
+  thrown in /home/darknetwork/public_html/tr/libraries/TeamSpeak3/Transport/TCP.php on line 54
+[15-Feb-2017 23:51:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/darknetwork/public_html/tr/inc/ts3olustur.php on line 3
+[15-Feb-2017 23:51:07 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/darknetwork/public_html/tr/inc/ts3olustur.php on line 3
+[15-Feb-2017 23:51:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/darknetwork/public_html/tr/inc/ts3olustur.php on line 2
+[15-Feb-2017 23:51:22 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/darknetwork/public_html/tr/inc/ts3olustur.php on line 2
+[15-Feb-2017 23:57:56 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/darknetwork/public_html/tr/inc/ts3olustur.php on line 237
+[15-Feb-2017 23:57:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/darknetwork/public_html/tr/inc/ts3olustur.php on line 237
